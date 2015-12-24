@@ -1,0 +1,67 @@
+{
+    "File": {
+        "ID": "cc9f7e85-df7a-0ad2-6ec6-b283f4ff7b0d",
+        "Path": "/Users/drewbailey/Projects/ruby/edit_app/Appfile",
+        "Source": "",
+        "Application": {
+            "Name": "edit_app",
+            "Type": "ruby",
+            "Dependencies": null
+        },
+        "Project": {
+            "Name": "edit_app",
+            "Infrastructure": "edit_app"
+        },
+        "Infrastructure": [
+            {
+                "Name": "edit_app",
+                "Type": "aws",
+                "Flavor": "simple",
+                "Foundations": [
+                    {
+                        "Name": "consul",
+                        "Config": null
+                    }
+                ]
+            }
+        ],
+        "Customization": null,
+        "Imports": null
+    },
+    "Vertices": [
+        {
+            "File": {
+                "ID": "cc9f7e85-df7a-0ad2-6ec6-b283f4ff7b0d",
+                "Path": "/Users/drewbailey/Projects/ruby/edit_app/Appfile",
+                "Source": "",
+                "Application": {
+                    "Name": "edit_app",
+                    "Type": "ruby",
+                    "Dependencies": null
+                },
+                "Project": {
+                    "Name": "edit_app",
+                    "Infrastructure": "edit_app"
+                },
+                "Infrastructure": [
+                    {
+                        "Name": "edit_app",
+                        "Type": "aws",
+                        "Flavor": "simple",
+                        "Foundations": [
+                            {
+                                "Name": "consul",
+                                "Config": null
+                            }
+                        ]
+                    }
+                ],
+                "Customization": null,
+                "Imports": null
+            },
+            "Dir": "",
+            "NameValue": "edit_app"
+        }
+    ],
+    "Edges": []
+}
